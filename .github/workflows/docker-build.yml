@@ -32,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/kv-api:latest
+          tags: ghcr.io/${{ github.repository_owner }}/kvr:latest
