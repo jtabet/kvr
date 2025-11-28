@@ -18,7 +18,7 @@ app.get('/:key', (req, res) => {
 app.put('/:key', (req, res) => {
   const { key } = req.params;
   store[key] = req.body;
-  res.sendStatus(204);
+  res.send(req.body);
 });
 
 // DELETE /:key
